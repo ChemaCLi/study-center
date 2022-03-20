@@ -1,7 +1,7 @@
 import { create } from "./create";
 import { getAll } from "./get-all";
 
-export const UserService = {
+export const StudentService = {
   create,
   getAll,
 }

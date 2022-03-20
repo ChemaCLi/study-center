@@ -1,3 +1,9 @@
-export * from "./delete-by-id"
-export * from "./get-by-id"
-export * from "./update"
+import { deleteById } from "./delete-by-id"
+import { getById } from "./get-by-id"
+import { update } from "./update"
+
+export const UserService = {
+  update,
+  getById,
+  deleteById,
+}

@@ -1,2 +1,8 @@
-export * from "./create"
-export * from "./get-all"
+import { create } from "./create"
+import { getAll } from "./get-all"
+
+export const CourseService = {
+  create,
+  getAll,
+}
+
